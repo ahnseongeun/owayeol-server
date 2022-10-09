@@ -1,15 +1,18 @@
-[![Video Label](http://img.youtube.com/vi/gBajEavedIs/0.jpg)](https://youtu.be/gBajEavedIs)
-# owayeol
-s누르면 시작/정지 wait%s.bag이 있는경우 초기 위치로 이동
-경로
-~/owayeol/map%s/path%s
-대기 장소
-~/owayeol/map%s/wait%s.bag
-웨이포인트
-%s/owayeol/map%s/path%s/waypoint%s.bag
+# ROS를 이용한 군집로봇 지능형 보안 시스템
 
+## 📝 Description
 
-ROS_NAMESPACE=robot1 roslaunch owayeol patrol.launch robotnum:=1
+CCTV와 다수의 로봇을 연계하여 침입자를 추적하고 좌표를 전송하고 침입자가 시야에서 사라진 경우 추적 알고리즘에 활용하여 침입자가 카메라 시야밖에서 갈 수 있는 제한된 구역의 퇴로를 막고 순찰하여 침입자를 찾아내어 운용자에게 침입자의 위치를 알려주는 보안 시스템입니다.
 
-jetson nano install
-https://www.jetsonhacks.com/2019/10/23/install-ros-on-jetson-nano/
+## 📋 Functions
+
+- Lidar와 Encoder motor를 통해서 자율주행이 가능한 자체제작 로봇
+- 서보 모터를 이용한 180 회전이 가능한 자제제작  CCTV
+- YOLO를 이용한 객체인식 및 물체 탐지
+- A* 알고리즘을 활용한 두 좌표간의 최단 거리
+- Pyqt5로 제작한 모니터링 GUI 제공
+- SLAM을 이용한 Map 제작
+- 거리센서를 이용해서 Map에 침입자 좌표 표시
+- 다수의 로봇을 제어 할수 있는 서버
+- 침입자 탐지시 발동하는 추적 알고리즘
+- 침입자 발견시 관리자 핸드폰으로 알림 제공 서비스
