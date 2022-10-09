@@ -1,8 +1,13 @@
 # ROS를 이용한 군집로봇 지능형 보안 시스템
 
+![Untitled (1)](https://user-images.githubusercontent.com/47744119/194744159-7ec813aa-9d10-45e1-b72f-c323748b1db6.png)
+
 ## 📝 Description
 
 CCTV와 다수의 로봇을 연계하여 침입자를 추적하고 좌표를 전송하고 침입자가 시야에서 사라진 경우 추적 알고리즘에 활용하여 침입자가 카메라 시야밖에서 갈 수 있는 제한된 구역의 퇴로를 막고 순찰하여 침입자를 찾아내어 운용자에게 침입자의 위치를 알려주는 보안 시스템입니다.
+
+## 📷 Preview
+https://www.youtube.com/watch?v=gBajEavedIs
 
 ## 📋 Functions
 
