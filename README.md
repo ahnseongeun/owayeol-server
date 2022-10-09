@@ -1,3 +1,4 @@
+[![Video Label](http://img.youtube.com/vi/gBajEavedIs/0.jpg)](https://youtu.be/gBajEavedIs)
 # owayeol
 s누르면 시작/정지 wait%s.bag이 있는경우 초기 위치로 이동
 경로
