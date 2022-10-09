@@ -1,6 +1,6 @@
 # ROS를 이용한 군집로봇 지능형 보안 시스템
+<img src="https://user-images.githubusercontent.com/47744119/194744159-7ec813aa-9d10-45e1-b72f-c323748b1db6.png"  width="400" height="400"/>
 
-![Untitled (1)](https://user-images.githubusercontent.com/47744119/194744159-7ec813aa-9d10-45e1-b72f-c323748b1db6.png)
 
 ## 📝 Description
 
